@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width:1200px){
+a{
+    text-decoration: none;
+    color: #5d5c5c;
+}
+
+a:hover{
+    font-weight: 700;
+    color: #5d5c5c;
+}
+.container-left{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #BEBEBE;
+    text-align: center;
+    padding: 2rem 0;
+}
+.container-left button{
+    margin-top: 2rem;
+}
+
+.logo{
+    width: 5rem;
+    height:5rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
+
+.container-left-logo{
+    width: 90%;
+}
+
+.container-left-logo p{
+    width: 20rem;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.container-right{
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+}
+
+.container-left ul{
+    list-style: none;
+    position: relative;
+    text-align: left;
+    margin-top: 5rem;
+}
+
+.container-left li{
+    padding-top: 0.3rem;
+    cursor: pointer;
+}
+.container-left li:hover{
+    background-color: #8b8b8b;
+    padding:  0.5rem;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.container-left .fa-chevron-down{
+    position: absolute;
+    right: 10%;
+}
+ .fa-user,.fa-globe{
+    margin-right: 1rem;
+} 
+
+.english{
+    margin-top: 15rem;
+}
+
+span{
+    font-weight: bold;
+}
+.list-bottom{
+    position: absolute;
+    bottom: 15%;
+}
+.container-right-content-left{
+    width: 80%;
+}
+
+td:last-child{
+    text-align: center;
+}
+
+.table th,td{
+    max-width: 12rem;  
+}
+.table{
+    border: 1px solid #BEBEBE;
+}
+
+.table td p{
+    position: relative;
+    height: 3rem;
+    overflow: hidden;
+}
+.table td.active p{
+    height: auto;
+}
+
+.more:hover{
+color: rgb(66, 100, 221);
+text-decoration: underline;
+cursor: pointer;
+}
+
+.container-right-content-right{
+    width: 20%;
+    margin-top: 2rem;
+}
+
+.container-right-content-right ul{
+    list-style: none;
+}
+.container-right-content-right li{
+    width: 110%;
+    position: relative;
+    border: 1px rgb(233, 229, 229) solid;
+    padding: 10px;
+}
+
+.container-right .fa-chevron-down{
+    position: absolute;
+    right: 5%;
+}
+
+.container-right-content-right .collapse{
+    padding: 10px;
+    width: 110%;
+    border: 1px rgb(233, 229, 229) solid;
+}
+.container-right-content-right .collapsing{
+    padding: 10px;
+    width: 110%;
+    border: 1px rgb(233, 229, 229) solid;
+}
+}
