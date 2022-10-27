@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width:1200px){
+    .container-main{
+        display: flex;
+    }
+a{
+    text-decoration: none;
+    color: #5d5c5c;
+}
+
+a:hover{
+    font-weight: 700;
+    color: #5d5c5c;
+}
+.container-left{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #BEBEBE;
+    text-align: center;
+    padding-top: 2rem;
+    overflow-y: scroll;
+}
+.container-left button{
+    margin-top: 2rem;
+}
+
+.logo{
+    width: 5rem;
+    height:5rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
+
+.container-left-logo{
+    width: 90%;
+}
+
+.container-left-logo p{
+    width: 20rem;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.container-right{
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+}
+
+.container-left ul{
+    list-style: none;
+    position: relative;
+    text-align: left;
+    margin-top: 5rem;
+}
+
+.container-left li{
+    padding-top: 0.3rem;
+    cursor: pointer;
+}
+.container-left li:hover{
+    background-color: #8b8b8b;
+    padding:  0.5rem;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.container-left .fa-chevron-down{
+    position: absolute;
+    right: 10%;
+}
+ .fa-user,.fa-globe{
+    margin-right: 1rem;
+} 
+
+.english{
+    margin-top: 15rem;
+}
+
+span{
+    font-weight: bold;
+}
+.list-bottom{
+    position: absolute;
+    bottom: 15%;
+}
+.container-right-content-left{
+    width: 70%;
+}
+.more{
+    padding: 10px 20px;
+    background-color: #BEBEBE;
+    border-radius: 5px;
+}
+
+.more:hover{
+cursor: pointer;
+}
+
+.container-right-content-right{
+    width: 25%;
+    margin-top: 2rem;
+}
+
+.container-right-content-right ul{
+    list-style: none;
+}
+.container-right-content-right li{
+    width: 110%;
+    position: relative;
+    border: 1px rgb(233, 229, 229) solid;
+    padding: 10px;
+}
+
+.container-right-content-right .fa-chevron-down{
+    position: absolute;
+    right: 5%;
+}
+
+.container-right-content-right .collapse{
+    padding: 10px;
+    width: 110%;
+    border: 1px rgb(233, 229, 229) solid;
+}
+.container-right-content-right .collapsing{
+    padding: 10px;
+    width: 110%;
+    border: 1px rgb(233, 229, 229) solid;
+}
+
+#introduction tr td p{
+    text-align: left;
+}
+#introduction tr:last-child th{
+   position: relative;
+}
+#introduction tr:last-child th p{
+   position: absolute;
+    top: 10px;
+}
+ #introduction tr td:last-child p{
+    text-align: left;
+    position: relative;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+ #introduction tr td.active p{
+    -webkit-line-clamp: 100;
+    -webkit-box-orient: vertical; 
+    width: auto;
+}
+ #introduction tr th{
+    text-align: left;
+    width: 20%;
+    margin-right: 3rem;
+    border: none;
+    padding: 0px 0px;
+}
+
+#semester .table thead tr td{
+max-width: 20%;
+}
+#semester tr th{
+    border: none;
+}
+#semester .table tbody tr td:nth-child(4) p{
+    text-align: left;
+    position: relative;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+#semester .table tbody tr.active td:nth-child(4) p{
+    -webkit-line-clamp: 100;
+    -webkit-box-orient: vertical; 
+    width: auto;
+}
+
+.nav-bar-link ul.nav li{
+    border: 1px solid rgb(212, 210, 210);
+    padding: 5px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.nav-bar-link ul.nav li:hover{
+    background-color: #BEBEBE;
+}
+
+/* mapping-subject */
+#mapping-subject{
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: lightgrey;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 100rem;
+    height: 100;
+    size: 30px;
+}
+
+
+#mapping-subject .table-subject{
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    font-size: 0.8rem;
+    width: 100%;
+   
+}
+
+#mapping-subject .table-subject td,th{
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 0px;
+}
+
+#mapping-subject th {
+    background-color: rgb(235, 235, 235);
+}
+
+
+#mapping-subject td {
+    text-align: center;
+}
+
+#mapping-subject .headth {
+    width: 10%;
+    background-color: rgba(211, 209, 209, 0.373);
+    ;
+}
+
+#plo-table th{
+    border: none;
+}
+#div-plo-table{
+    display: none;
+    width: 120%;
+    height: 100vh;
+    overflow-y: scroll;
+
+} 
+#div-plo-table th,td{
+    min-width: 20px;
+    text-align: left;
+    padding-right: 20px;
+}
+.container-right-header-content{
+    background-color: #EFEFEF;
+}
+i.fa-xmark,i.fa-bars{
+    display: none;
+}
+}
+
+@media only screen and (max-width:468px){
+    .container-left{
+        width: 100%;
+    }
+    .container-left-logo img{
+        width: 30%;
+        height: 30%;
+        text-align: left;
+    }
+    .container-left-logo p{
+    width: 10rem;
+    text-align: left;
+    }
+    i.fa-bars{
+        display: inline-block;
+        position: absolute;
+        right: 0;
+    }
+    i.fa-xmark{
+        display: none;
+        position: absolute;
+        right: 0;
+    }
+    ul {
+        list-style: none;
+    }
+   
+    .container-left button{
+        display: none;
+    }
+    #side-bar-menu{
+        display: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: #5d5c5c;
+    }
+    a:hover{
+        font-weight: 700;
+        color: #5d5c5c;
+    }
+    .container-left ul{
+        list-style: none;
+        position: relative;
+        text-align: left;
+    }
+    
+    .container-left li{
+        padding-top: 0.3rem;
+        cursor: pointer;
+    }
+    .container-left li:hover{
+        background-color: #8b8b8b;
+        padding:  0.5rem;
+        border-radius: 10px;
+        font-size: large;
+    }
+    .fa-user,.fa-globe{
+        margin-right: 1rem;
+    } 
+
+    .container-left .fa-chevron-down{
+        position: absolute;
+        right: 10%;
+    }
+    .container-right-header-content{
+        background-color: #EFEFEF;
+    }
+    .nav-bar-link ul.nav li{
+        border: 1px solid rgb(212, 210, 210);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 100px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .nav-bar-link ul.nav li:hover{
+        background-color: #BEBEBE;
+    }
+    
+    .container-right-content-right li{
+        width: 110%;
+        position: relative;
+        border: 1px rgb(233, 229, 229) solid;
+        padding: 10px;
+    }
+    
+    .container-right-content-right .fa-chevron-down{
+        position: absolute;
+        right: 5%;
+    }
+    
+    .container-right-content-right .collapse{
+        padding: 10px;
+        width: 110%;
+        border: 1px rgb(233, 229, 229) solid;
+    }
+    .container-right-content-right .collapsing{
+        padding: 10px;
+        width: 110%;
+        border: 1px rgb(233, 229, 229) solid;
+    }
+     
+    #introduction tr td p{
+        text-align: left;
+    }
+    #introduction tr:last-child th{
+       position: relative;
+    }
+    #introduction tr:last-child th p{
+       position: absolute;
+        top: 10px;
+    }
+     #introduction tr td:last-child p{
+        text-align: left;
+        position: relative;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+      overflow: hidden;
+    }
+     #introduction tr td.active p{
+        -webkit-line-clamp: 100;
+        -webkit-box-orient: vertical; 
+        width: auto;
+    }
+     #introduction tr th{
+        text-align: left;
+        width: 20%;
+        border: none;
+        padding: 0px 10px;
+    }
+    
+    #semester .table thead tr td{
+    max-width: 20%;
+    }
+    #semester tr th{
+        border: none;
+    }
+    #semester .table tbody tr td:nth-child(4) p{
+        text-align: left;
+        position: relative;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;  
+      overflow: hidden;
+    }
+    #semester .table tbody tr.active td:nth-child(4) p{
+        -webkit-line-clamp: 100;
+        -webkit-box-orient: vertical; 
+        width: auto;
+    }
+    
+    .nav-bar-link ul.nav li{
+        border: 1px solid rgb(212, 210, 210);
+        padding: 5px 20px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .nav-bar-link ul.nav li:hover{
+        background-color: #BEBEBE;
+    }
+     
+    /* mapping-subject */
+     #mapping-subject{
+        max-height: 100vh;
+        overflow-y: scroll;
+    }
+    
+    ::-webkit-scrollbar{
+        width: 10px;
+        background: lightgrey;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+        background-color: grey;
+        border-radius: 100rem;
+        height: 100;
+        size: 30px;
+    }
+    
+    
+    #mapping-subject .table-subject{
+        border-collapse: collapse;
+        border: 2px solid rgb(200, 200, 200);
+        font-size: 0.8rem;
+        width: 100%;
+       
+    }
+    
+    #mapping-subject .table-subject td,th{
+        border: 1px solid rgb(190, 190, 190);
+        padding: 10px 0px;
+    }
+    
+    #mapping-subject th {
+        background-color: rgb(235, 235, 235);
+    }
+    
+    
+    #mapping-subject td {
+        text-align: center;
+    }
+    
+    #mapping-subject .headth {
+        width: 10%;
+        background-color: rgba(211, 209, 209, 0.373);
+        ;
+    }
+    
+    #plo-table th{
+        border: none;
+    }
+    #div-plo-table{
+        display: none;
+        width: 120%;
+        height: 100vh;
+        overflow-y: scroll;
+    
+    } 
+    #div-plo-table th,td{
+        min-width: 20px;
+        text-align: left;
+        padding-right: 20px;
+    }
+    .container-right-header-content{
+        background-color: #EFEFEF;
+    } 
+}

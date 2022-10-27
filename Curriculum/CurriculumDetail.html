@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Curriculum</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="CurriculumDetailStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-main">
+       <!-- left  -->
+      <div class="container-left">
+        <div class="container-left-logo d-flex justify-content-center">
+          <img class="logo" src="../logo/fptcorp-logo-1563325940.jpg" alt="logo">
+          <p><span >FPT University Learning Materials</span></p>
+          <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+        </div>
+        <ul id="side-bar-menu">
+          <li data-bs-toggle="collapse" href="#collapseExample1"><i class="fa-solid fa-user "></i><span>Student</span><i class="fa-solid fa-chevron-down" ></i></li>
+          <div class="collapse" id="collapseExample1">
+              <div class="collapse-list ms-3">
+                <div><a href="#">View curriculum</a></div>
+                <div><a href="#">Show learning path of a subject</a></div>
+                <div><a href="#">Prerequisite of subject</a></div>
+              </div>
+          </div>
+          <li data-bs-toggle="collapse" href="#collapseExample2"><i class="fa-solid fa-user"></i><span>Teacher</span><i class="fa-solid fa-chevron-down" ></i></li>
+          <div class="collapse" id="collapseExample2">
+            <div class="collapse-list ms-3">
+              <div><a href="#">View curriculum</a></div>
+              <div><a href="#">Show learning path of a subject</a></div>
+              <div><a href="#">Prerequisite of subject</a></div>
+            </div>
+      </div>
+          <li data-bs-toggle="collapse" href="#collapseExample3"><i class="fa-solid fa-user"></i><span>Acad</span><i class="fa-solid fa-chevron-down" ></i></li>
+          <div class="collapse" id="collapseExample3">
+            <div class="collapse-list ms-3">
+              <div><a href="#">View curriculum</a></div>
+              <div><a href="#">Show learning path of a subject</a></div>
+              <div><a href="#">Prerequisite of subject</a></div>
+            </div>
+      </div>
+          <li data-bs-toggle="collapse" href="#collapseExample4"><i class="fa-solid fa-user"></i><span>Admin</span><i class="fa-solid fa-chevron-down" ></i></li>
+          <div class="collapse" id="collapseExample4">
+            <div class="collapse-list ms-3">
+              <div><a href="#">View curriculum</a></div>
+              <div><a href="#">Show learning path of a subject</a></div>
+              <div><a href="#">Prerequisite of subject</a></div>
+            </div>
+      </div>
+      <li class="english"><i class="fa-solid fa-globe"></i>English</li>
+    <li data-bs-toggle="collapse" href="#collapseExample5"><i class="fa-solid fa-user"></i>Phí Ngọc Thắng<i class="fa-solid fa-chevron-down" ></i></li>
+    <div class="collapse" id="collapseExample5">
+      <div class="collapse-list ms-3">
+        <div><p><span>Email:</span> thangpnha140482@fpt.edu.vn</p></div>
+        <div><p><span>User role:</span> Student</p></div>
+        <div><p><span>Education level:</span> FU</p></div>
+      </div>
+      </div>
+      </ul>
+
+      <button type="button" class="btn btn-secondary w-75">Sign out</button>
+
+      </div>
+      <!-- right  -->
+      <div class="container-right">
+        <div class="container-right-header">
+          <div class="container-right-header-content p-4 ">
+            <h2 class="mt-4">Curriculum detail</h2>
+          <a href="#" class="fs-6">Home</a> <i class="fa-solid fa-chevron-right m-3" style="font-size: 10px;"></i> <a href="#" class="fs-6 fw-bold">Curriculum Detail</a>
+        </div>
+          <div class="nav-bar-link ms-5 mt-4">
+            <ul class="nav">
+              <li class="active"><a data-bs-toggle="tab" href="#introduction" class="introduction">Introduction</a></li>
+              <li><a data-bs-toggle="tab" href="#semester" class="semester">Semester</a></li>
+              <li><a data-bs-toggle="tab" href="#mapping-subject" class="mappingSubject">Mapping subject</a></1li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="container-right-content d-flex p-4">
+          <div class="container-right-content-left">
+
+            <div class="container tab">
+               
+                <div class="tab-content mt-3 Regular shadow">
+                    <div id="introduction" class="tab-pane fade in active">
+                        <div class="card p-3 ">
+                              <table>
+                                <tr>
+                                    <th><p>Curriculum Code:</p></th>
+                                    <td><p class="w-100">BIT-IoT-K16C(FNO)</p></td>
+                                </tr>
+                                <tr>
+                                    <th><p>Name:</p></th>
+                                    <td ><p>Bachelor Program of Information Technology, Internet of Things</p></td>
+                                </tr>
+                                <tr>
+                                    <th><p>Description</p></th>
+                                    <td><p class="pt-3">1. TRAINING OBJECTIVES
+                                        1.1. General objectives:
+                                        Training Information Technology (IT)/Internet of Things (IoT) engineers with personality and capacity to meet the needs of society, mastering professional knowledge and practice, being able to organize, implement and promote the creativity in jobs related to the trained specialties.
+                                        The training program aims to:Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Tenetur repellendus rem, debitis quod nulla, dignissimos ipsa consectetur ab, 
+                                        nesciunt fuga laudantium libero. Obcaecati in at enim autem soluta eligendi sequi.
+                                    </p><span class="more">See more</span>
+                                        
+                                    </td>
+                                </tr>
+                              </table>
+                          </div>
+                    </div>
+
+                    <div id="semester" class="tab-pane fadel">
+                        <select class="mb-3">
+                            <option value="">Semester 1</option>
+                            <option value="">Semester 2</option>
+                            <option value="">Semester 3</option>
+                            <option value="">Semester 4</option>
+                            <option value="">Semester 5</option>
+                            <option value="">Semester 6</option>
+                        </select>
+
+                        <table class="table">
+                            <thead>
+                              <tr class="table-secondary">
+                                <th scope="col">Subject Code</th>
+                                <th scope="col">Subject Name</th>
+                                <th scope="col">NoCredit</th>
+                                <th scope="col">PreRequisite</th>
+                                <th scope="col"></th>
+                               
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">OTP101</th>
+                                <td><p>	Communication and In-Group Working Skills</p></td>
+                                <td><p>0</p></td>
+                                <td><p> Student must pass Machine Learning (AIL30x). 
+                                    - Pass OJT202 - Pass 60% of total credits of selected combo 
+                                    - Pass 80% of total credits (VOVxxx excluded) 
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Ex temporibus, facere ratione vel quo neque dicta cupiditate 
+                                    sint inventore dolores architecto quam ullam, delectus quae
+                                </p>
+                                </td>
+                                <td ><i class="fa-solid fa-chevron-down mt-4 semesterMore" ></i></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">OTP101</th>
+                                <td><p>	Communication and In-Group Working Skills</p></td>
+                                <td><p>0</p></td>
+                                <td><p> Student must pass Machine Learning (AIL30x). 
+                                    - Pass OJT202 - Pass 60% of total credits of selected combo 
+                                    - Pass 80% of total credits (VOVxxx excluded) 
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Ex temporibus, facere ratione vel quo neque dicta cupiditate 
+                                    sint inventore dolores architecto quam ullam, delectus quae
+                                </p>
+                                </td>
+                                <td ><i class="fa-solid fa-chevron-down mt-4 semesterMore" ></i></td>
+                              </tr>
+
+                            </tbody>
+                          </table>
+                    </div>
+                    <div id="mapping-subject" class="tab-pane fadel">
+                        <table class="table-subject">
+                            <thead>
+                                <tr>
+                                    <th colspan="21" class="headth" style="font-size: 1rem;font-weight: bold;padding: 20px;">Mapping
+                                        subjects
+                                        of the
+                                        Curriculem
+                                        BIT_ioT_K16C(FNO) to program learning
+                                        outcomes</th>
+                                </tr>
+                                <tr>
+                                    <th colspan="3">Mã Môn</th>
+                                    <th>
+                                        <p>PLO 1</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 2</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 3</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 4</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 5</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 6</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 7</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 8</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 9</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 10</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 11</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 12</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 13</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 14</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 15</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 16</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 17</p>
+                                    </th>
+                                    <th>
+                                        <p>PLO 18</p>
+                                    </th>
+                                </tr>
+                    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="21" style="font-weight:900;padding: 12px;font-size: 1rem;">General knowledge and skills
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-weight:bold;padding: 20px;">MLN111</span></th>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN11</span></th>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN113</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN141</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td></td>
+                                    <td><i class="fa-solid fa-check"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3"><span style="font-style:bold;">MLN111</span></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                    
+                            </tbody>
+                    
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+          </div>
+          <div class="container-right-content-right">
+            <ul id="filter-right">
+              <li class="Regular shadow mb-2" data-bs-toggle="collapse" href="#collapseindustry"><span>Training industry</span><i class="fa-solid fa-chevron-down" ></i></li>
+              <div class="collapse Regular shadow mb-2" id="collapseindustry">
+                  <div class="collapse-list">
+                    <div><a href="#">Công nghệ thông tin</a></div>
+                    <div><a href="#">Quản trị kinh doanh</a></div>
+                    <div><a href="#">Ngôn ngữ Anh</a></div>
+                    <div><a href="#">Ngôn ngữ Nhật</a></div>
+                    <div><a href="#">Ngôn ngữ Hàn</a></div>
+                  </div>
+              </div>
+              <li class="Regular shadow mb-2" data-bs-toggle="collapse" href="#collapseMajors"><span>Majors</span><i class="fa-solid fa-chevron-down"></i></li>
+              <div class="collapse Regular shadow mb-2" id="collapseMajors">
+                <div class="collapse-list ">
+                  <div><a href="#">View curriculum</a></div>
+                  <div><a href="#">Show learning path of a subject</a></div>
+                  <div><a href="#">Prerequisite of subject</a></div>
+                </div>
+          </div>
+              <li class="Regular shadow mb-2" data-bs-toggle="collapse" href="#collapseCoure"><span>Coure</span><i class="fa-solid fa-chevron-down"></i></li>
+              <div class="collapse Regular shadow mb-2" id="collapseCoure">
+                <div class="collapse-list">
+                  <div><a href="#">View curriculum</a></div>
+                  <div><a href="#">Show learning path of a subject</a></div>
+                  <div><a href="#">Prerequisite of subject</a></div>
+                </div>
+          </div>
+            </ul>
+            <div class="card" id="div-plo-table">
+            <table id="plo-table">
+              <thead>
+                <th></th>
+                <th>PLO NAME</th>
+                <th>PLO Description</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>PLO1</td>
+                  <td>Demonstrate basic knowledge of social sciences, politics and law, 
+                    national security and defense, contributing to the 
+                    formation of worldview and scientific methodology.
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>PLO1</td>
+                  <td>Demonstrate basic knowledge of social sciences, politics and law, 
+                    national security and defense, contributing to the 
+                    formation of worldview and scientific methodology.
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>PLO1</td>
+                  <td>Demonstrate basic knowledge of social sciences, politics and law, 
+                    national security and defense, contributing to the 
+                    formation of worldview and scientific methodology.
+                  </td>
+                </tr>
+               
+              </tbody>
+            </table>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let more = document.querySelectorAll('.more');
+      for (let i = 0; i < more.length; i++) {
+        more[i].addEventListener('click', function () {
+          more[i].parentNode.classList.toggle('active');
+          if(more[i].innerHTML == 'See less'){
+            more[i].innerHTML = 'See more';
+          }else{
+            more[i].innerHTML = 'See less';
+          }
+        })
+    }
+       
+        let semesterMore = document.querySelectorAll('.semesterMore');
+      for (let i = 0; i < semesterMore.length; i++) {
+        semesterMore[i].addEventListener('click', function () {
+            semesterMore[i].parentNode.parentNode.classList.toggle('active');
+        })
+        }
+
+        let clickMapping = document.getElementsByClassName('mappingSubject');
+        let clickIntroduct = document.getElementsByClassName('introduction');
+        let clickSemester = document.getElementsByClassName('semester');
+        let dropright = document.getElementById('filter-right');
+        let dropPLO = document.getElementById('div-plo-table');
+        clickMapping[0].addEventListener('click',function(){
+            dropright.style.display= 'none'
+            dropPLO.style.display= 'block'
+        })
+        clickIntroduct[0].addEventListener('click',function(){
+            dropright.style.display= 'block'
+            dropPLO.style.display= 'none'
+        })
+        clickSemester[0].addEventListener('click',function(){
+            dropright.style.display= 'block'
+            dropPLO.style.display= 'none'
+        })
+
+        let clickMenuInMobile = document.getElementsByClassName('fa-bars');
+        let clickCloseInMobile = document.getElementsByClassName('fa-xmark');
+        let menuList = document.getElementById('side-bar-menu');
+        clickMenuInMobile[0].addEventListener('click',function(){
+          clickCloseInMobile[0].style.display= 'block'
+          clickMenuInMobile[0].style.display= 'none'
+          menuList.style.display= 'block'
+          menuList.style.animation="3s infinite alternate slidein"
+        })
+        clickCloseInMobile[0].addEventListener('click',function(){
+          clickCloseInMobile[0].style.display= 'none'
+            clickMenuInMobile[0].style.display= 'block'
+            menuList.style.display= 'none'
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
